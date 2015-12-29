@@ -13,6 +13,10 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		C449B4921C32934600FA8EE9 /* UIScrollView+LoadMore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C449B48E1C32934600FA8EE9 /* UIScrollView+LoadMore.swift */; };
+		C449B4931C32934600FA8EE9 /* UIScrollView+Refresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = C449B48F1C32934600FA8EE9 /* UIScrollView+Refresh.swift */; };
+		C449B4941C32934600FA8EE9 /* ZZNormalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C449B4901C32934600FA8EE9 /* ZZNormalView.swift */; };
+		C449B4951C32934600FA8EE9 /* ZZRefreshHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C449B4911C32934600FA8EE9 /* ZZRefreshHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +43,10 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		98FAEF0C5E83B4F1115D61DD /* ZZRefresh.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZZRefresh.podspec; path = ../ZZRefresh.podspec; sourceTree = "<group>"; };
+		C449B48E1C32934600FA8EE9 /* UIScrollView+LoadMore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+LoadMore.swift"; sourceTree = "<group>"; };
+		C449B48F1C32934600FA8EE9 /* UIScrollView+Refresh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+Refresh.swift"; sourceTree = "<group>"; };
+		C449B4901C32934600FA8EE9 /* ZZNormalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZZNormalView.swift; sourceTree = "<group>"; };
+		C449B4911C32934600FA8EE9 /* ZZRefreshHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZZRefreshHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +89,7 @@
 		607FACD21AFB9204008FA782 /* Example for ZZRefresh */ = {
 			isa = PBXGroup;
 			children = (
+				C449B48D1C32934600FA8EE9 /* ZZRefresh */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -125,6 +134,17 @@
 				5A7164A1134E7E0C9ADB3A7D /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		C449B48D1C32934600FA8EE9 /* ZZRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				C449B48E1C32934600FA8EE9 /* UIScrollView+LoadMore.swift */,
+				C449B48F1C32934600FA8EE9 /* UIScrollView+Refresh.swift */,
+				C449B4901C32934600FA8EE9 /* ZZNormalView.swift */,
+				C449B4911C32934600FA8EE9 /* ZZRefreshHeaderView.swift */,
+			);
+			path = ZZRefresh;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,8 +248,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C449B4941C32934600FA8EE9 /* ZZNormalView.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				C449B4921C32934600FA8EE9 /* UIScrollView+LoadMore.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				C449B4931C32934600FA8EE9 /* UIScrollView+Refresh.swift in Sources */,
+				C449B4951C32934600FA8EE9 /* ZZRefreshHeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
