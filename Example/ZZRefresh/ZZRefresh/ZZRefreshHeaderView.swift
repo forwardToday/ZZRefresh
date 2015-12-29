@@ -63,7 +63,7 @@ class ZZRefreshHeaderView: UIView {
                     self.scrollView.contentInset = contentInset
                 })
             case .WillRefreshing:
-                break
+                normalView.setTitle("松开进行刷新")
 //                print("WillRefreshing !!!!!!!!!!!!")
             }
             
