@@ -18,7 +18,8 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
 			A simple project to support pull refresh and automaticly load more when swipe to bottom of tableView 
-                       DESC
+                      you can use it like example
+			 DESC
 
   s.homepage         = "https://github.com/forwardToday/ZZRefresh"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
